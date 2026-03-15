@@ -18,3 +18,13 @@ To utilize this system, ensure that all devices are configured with the necessar
 4. Run the management script to establish connections.
 
 For more detailed instructions, please refer to the individual scripts and documentation in this repository.
+
+## How to run
+# Install dependencies
+pip install -r requirements.txt
+
+# Start central server (on your main machine/cloud server)
+python server.py
+
+# Run agent on each device
+python agent.py --server-url ws://your-server-ip:8765
